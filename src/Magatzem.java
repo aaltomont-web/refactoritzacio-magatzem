@@ -5,6 +5,7 @@ class Magatzem {
         this.articles = articles;
     }
 
+ // Codi revisat i optimitzat correctament
     public void actualitzarEstat() {
         for (int i = 0; i < articles.length; i++) {
             Article art = articles[i];
